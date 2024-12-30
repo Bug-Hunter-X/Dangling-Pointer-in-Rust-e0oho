@@ -1,0 +1,1 @@
+This repository contains a simple Rust program that demonstrates a common error involving dangling pointers.  The `bug.rs` file showcases the error, where a raw pointer is used to modify a vector after the vector has gone out of scope, which leads to undefined behavior. The `bugSolution.rs` file presents a corrected approach, using safe Rust techniques to avoid the problem.
